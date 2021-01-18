@@ -1,0 +1,30 @@
+    {% extends 'base.html' %}
+    {% load static %}
+    {% block content %}
+<section class="ingredients">
+
+        <div class="container">
+            <h1>Ingredients</h1>
+            <div class="row">
+               <div class="col-sm">
+                {% for item in product1 %}
+                    <p style="color:#54BE2E; font-weight: 700;">{{item.name}}</p>
+                {% endfor %}
+              </div>
+                  <div class="col-sm">
+                {% for item in product2 %}
+                    <p style="color:#F4BB27; font-weight: 700;">{{item.name}}</p>
+                {% endfor %}
+              </div>
+                  <div class="col-sm">
+                {% for item in product3 %}
+                    <p style="color:#E31C1C; font-weight: 700;">{{item.name}}</p>
+                {% endfor %}
+              </div>
+
+            </div>
+        </div>
+
+    </section>
+
+       {% endblock %}

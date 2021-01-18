@@ -1,0 +1,35 @@
+    {% extends 'base.html' %}
+    {% load static %}
+    {% block content %}
+<section class="product-detail">
+
+        <div class="container">
+            <div class="row">
+              <div class="col-md-10 offset-md-1">
+                  <br>
+                    <h1>{{p.brand}}</h1>
+                    <br>
+                    <h2>{{p.pname}}</h2>
+                    <br>
+                    <button class="btn btn-success" style="background-color: #54BE2E !important;">Clean</button>
+                    <button class="btn btn-warning" style="background-color: #F4BB27 !important;">Tolerable</button>
+                    <button class="btn btn-danger" style="background-color: #E31C1C !important;">Dirty</button>
+                    <br>
+                    {% for item in product1 %}
+                    <p style="color:#54BE2E; font-weight: 700;">{{item.name}}</p>
+                    {% endfor %}
+                    {% for item in product2 %}
+                    <p style="color:#F4BB27; font-weight: 700;">{{item.name}}</p>
+                    {% endfor %}
+                    {% for item in product3 %}
+                  <p style="color:#E31C1C;font-weight: 700;">{{item.name}}</p>
+                   {% endfor %}
+
+                    </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    {% endblock %}

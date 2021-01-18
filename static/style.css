@@ -1,0 +1,143 @@
+header{
+    background-color: #C7F3B7 !important;
+    height: auto;
+    border: 1px solid;
+}
+
+.logo{
+    width: 20%;
+}
+
+.navbar{
+    background-color: transparent !important;
+    font-family: 'Julius Sans One', sans-serif;
+}
+.navbar a{
+    color: #000;
+}
+.navbar-toggler{
+    border: 1px solid #000 !important;
+}
+.home {
+    background-image: url('images/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    padding: 10rem 0 6rem;
+    border: 1px solid;
+}
+.home h1{
+    font-size: 45px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #373030;
+}
+
+.form-group input{
+    background-color: #F9C0D9 !important;
+    font-family: 'Karma', serif;
+    font-size: 16px;
+    padding: 2rem;
+    padding-right: 8rem;
+    border-radius: 16px;
+}
+
+.btn-search {
+    margin-left: 4rem;
+    background-color: #F9C0D9 !important;
+    font-family: 'Karma', serif;
+    font-size: 16px;
+    padding: 0.7rem;
+    padding-left: 4%;
+    padding-right: 4%;
+    border-radius: 16px;
+}
+
+footer{
+    background-color: #C7F3B7 !important;
+    height: auto;
+    border: 1px solid;
+}
+
+footer img{
+    margin-top: 5%;
+}
+
+footer p {
+    margin-top: 15%;
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+}
+
+.product-detail{
+    text-align: center;
+    margin: 5%;
+}
+.product-detail h1 {
+    font-size: 24px;
+    font-family: 'Jaldi', sans-serif;
+}
+
+.product-detail h2 {
+    font-size: 18px;
+    font-family: 'Jaldi', sans-serif;
+}
+.product-detail button{
+    color:white;
+    margin-bottom: 2%;
+    font-size: 14px;
+    font-family: 'Jaldi', sans-serif;
+}
+.product-detail li{
+    list-style: none;
+    font-size: 14px;
+    font-family: 'Jaldi', sans-serif;
+}
+
+.products{
+    text-align: center;
+    margin: 5%;
+}
+.products h1 {
+    font-size: 24px;
+    font-family: 'Jaldi', sans-serif;
+}
+.products li{
+    list-style: none;
+    font-size: 12px;
+    font-family: 'Noto Sans', sans-serif;
+    margin-top: 3%;
+}
+.products a{
+    color: #000;
+}
+
+.ingredients{
+    text-align: center;
+    margin: 5%;
+}
+
+.ingredients h1{
+    font-size: 24px;
+    font-family: 'Jaldi', sans-serif;
+    margin-bottom: 2%;
+}
+.ingredients p{
+    font-size: 12px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+.about-us{
+    text-align: center;
+    margin: 5%;
+}
+.about-us h1{
+   font-size: 16px;
+   font-weight: 900;
+   font-family: 'Noto Sans', sans-serif;
+}
+
+.about-us p{
+    font-size: 12px;
+    font-family: 'Noto Sans', sans-serif;
+}
